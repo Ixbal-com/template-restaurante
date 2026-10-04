@@ -1,0 +1,23 @@
+/* La primera foto ocupa el doble de espacio en pantallas grandes. */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-3);
+  padding: 0;
+  list-style: none;
+}
+
+.gallery__item:first-child {
+  grid-column: span 2;
+}
+
+@media (min-width: 56rem) {
+  .gallery {
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--space-4);
+  }
+
+  .gallery__item:first-child {
+    grid-row: span 2;
+  }
+}

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#f7f0e5"/>
+  <circle cx="1010" cy="315" r="230" fill="#a8482a"/>
+  <circle cx="1010" cy="315" r="170" fill="none" stroke="#fffaf3" stroke-width="3"/>
+  <text x="80" y="290" fill="#2b211c" font-family="Georgia, serif" font-size="104">Casa Ceiba</text>
+  <text x="84" y="380" fill="#a8482a" font-family="Georgia, serif" font-size="44" font-style="italic">Cocina yucateca en Mérida</text>
+</svg>

@@ -1,0 +1,25 @@
+.split__content > p:not(.eyebrow) {
+  margin-top: var(--space-6);
+  font-size: var(--text-lg);
+  color: var(--color-text-muted);
+}
+
+.pull-quote {
+  margin: var(--space-8) 0 0;
+  padding-left: var(--space-6);
+  border-left: 2px solid var(--color-primary);
+}
+
+.pull-quote__text {
+  font-family: var(--font-display);
+  font-size: var(--text-xl);
+  font-style: italic;
+  line-height: 1.4;
+}
+
+.pull-quote__author {
+  margin-top: var(--space-3);
+  font-size: var(--text-sm);
+  font-weight: 600;
+  color: var(--color-text-muted);
+}

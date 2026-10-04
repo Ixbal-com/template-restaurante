@@ -1,0 +1,65 @@
+.menu {
+  display: grid;
+  gap: var(--space-12) var(--space-16);
+}
+
+@media (min-width: 56rem) {
+  .menu {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.menu-category__title {
+  padding-bottom: var(--space-3);
+  border-bottom: 1px solid var(--color-text);
+  font-size: var(--text-xl);
+  font-style: italic;
+}
+
+.menu-list {
+  display: grid;
+  gap: var(--space-6);
+  margin-top: var(--space-6);
+  padding: 0;
+  list-style: none;
+}
+
+/* Nombre ....... precio, con una línea punteada que se estira entre ambos */
+.menu-item__row {
+  display: flex;
+  align-items: baseline;
+  gap: var(--space-2);
+  font-weight: 600;
+}
+
+.menu-item__row::after {
+  content: "";
+  order: 1;
+  flex: 1;
+  border-bottom: 1px dotted var(--color-text-muted);
+}
+
+.menu-item__price {
+  order: 2;
+  font-family: var(--font-display);
+  color: var(--color-primary);
+}
+
+.menu-item__desc {
+  margin-top: var(--space-1);
+  font-size: var(--text-sm);
+  color: var(--color-text-muted);
+}
+
+.menu__footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-4);
+  margin-top: var(--space-16);
+  padding-top: var(--space-8);
+  border-top: 1px solid var(--color-border);
+  font-size: var(--text-sm);
+  color: var(--color-text-muted);
+}

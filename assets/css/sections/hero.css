@@ -1,0 +1,129 @@
+.hero {
+  padding-block: var(--space-12) var(--space-section);
+}
+
+.hero__inner {
+  display: grid;
+  gap: var(--space-12);
+  align-items: center;
+}
+
+@media (min-width: 56rem) {
+  .hero__inner {
+    grid-template-columns: 1.15fr 0.85fr;
+    gap: var(--space-16);
+  }
+}
+
+.hero__title {
+  font-size: var(--text-3xl);
+  font-weight: 400;
+}
+
+.hero__title em {
+  font-style: italic;
+  color: var(--color-primary);
+}
+
+.hero__lead {
+  max-width: 34rem;
+  margin-top: var(--space-6);
+  font-size: var(--text-lg);
+  color: var(--color-text-muted);
+}
+
+.hero__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+  margin-top: var(--space-8);
+}
+
+.hero__facts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2) var(--space-6);
+  margin-top: var(--space-12);
+  padding: var(--space-6) 0 0;
+  border-top: 1px solid var(--color-border);
+  list-style: none;
+  font-size: var(--text-sm);
+  color: var(--color-text-muted);
+}
+
+.hero__facts strong {
+  display: block;
+  font-family: var(--font-display);
+  font-size: var(--text-xl);
+  font-weight: 500;
+  color: var(--color-text);
+}
+
+.hero__visual {
+  position: relative;
+}
+
+.hero__visual .media {
+  border-radius: 12rem 12rem var(--radius-lg) var(--radius-lg);
+}
+
+.hero__stamp {
+  position: absolute;
+  top: var(--space-8);
+  left: calc(var(--space-8) * -1);
+  display: grid;
+  place-items: center;
+  width: 7.5rem;
+  height: 7.5rem;
+  border-radius: var(--radius-full);
+  background: var(--color-accent);
+  color: var(--color-on-primary);
+  font-family: var(--font-display);
+  font-style: italic;
+  line-height: 1.1;
+  text-align: center;
+  rotate: -10deg;
+  box-shadow: var(--shadow-md);
+}
+
+.hero__stamp strong {
+  display: block;
+  font-size: var(--text-xl);
+  font-style: normal;
+}
+
+@media (max-width: 55.99rem) {
+  .hero__stamp {
+    left: var(--space-4);
+    width: 6rem;
+    height: 6rem;
+    font-size: var(--text-sm);
+  }
+}
+
+/* Lo muestra main.js según el horario de la sección "Visítanos" */
+.status-badge {
+  display: flex;
+  width: fit-content;
+  align-items: center;
+  gap: var(--space-2);
+  margin-bottom: var(--space-6);
+  padding: var(--space-1) var(--space-3);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-full);
+  background: var(--color-surface);
+  font-size: var(--text-sm);
+  font-weight: 600;
+}
+
+.status-badge::before {
+  content: "";
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: var(--radius-full);
+  background: var(--color-danger);
+}
+
+.status-badge.is-open::before {
+  background: var(--color-success);
+}

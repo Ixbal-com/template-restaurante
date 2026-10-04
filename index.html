@@ -1,0 +1,446 @@
+<!doctype html>
+<html lang="es-MX">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- SEO: título y descripción que aparecen en Google -->
+  <title>Casa Ceiba · Cocina yucateca en Mérida</title>
+  <meta name="description" content="Cocina yucateca de recetas familiares en el barrio de Santa Ana, Mérida. Cochinita, relleno negro y sopa de lima hechos como en casa. Reserva por WhatsApp.">
+  <meta name="theme-color" content="#a8482a">
+
+  <!-- Vista previa al compartir en WhatsApp y redes sociales -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Casa Ceiba · Cocina yucateca en Mérida">
+  <meta property="og:description" content="Recetas de familia servidas con calma, en una casona del barrio de Santa Ana.">
+  <meta property="og:image" content="assets/img/og-image.svg">
+  <meta property="og:locale" content="es_MX">
+
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&display=swap">
+
+  <link rel="stylesheet" href="assets/css/main.css">
+  <script type="module" src="assets/js/main.js"></script>
+
+  <!-- Datos estructurados para Google Maps y búsquedas locales -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "Casa Ceiba",
+    "description": "Cocina yucateca de recetas familiares.",
+    "servesCuisine": ["Yucateca", "Mexicana"],
+    "priceRange": "$$",
+    "acceptsReservations": true,
+    "menu": "#menu",
+    "telephone": "+52 999 765 4321",
+    "email": "hola@casaceiba.mx",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Calle 47 #512, Santa Ana",
+      "addressLocality": "Mérida",
+      "addressRegion": "Yucatán",
+      "postalCode": "97000",
+      "addressCountry": "MX"
+    },
+    "openingHoursSpecification": [
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"], "opens": "13:00", "closes": "23:00" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Sunday", "opens": "09:00", "closes": "18:00" }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <!-- ============ ENCABEZADO ============ -->
+  <header class="site-header" data-header>
+    <div class="container site-header__inner">
+      <a class="brand" href="#inicio" aria-label="Casa Ceiba, ir al inicio">
+        <img class="brand__logo" src="assets/img/logo.svg" alt="" width="40" height="40">
+        <span class="brand__name">Casa Ceiba</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu-principal" data-nav-toggle>
+        <span class="visually-hidden">Abrir menú</span>
+        <svg class="icon" aria-hidden="true"><use href="assets/img/icons.svg#menu"></use></svg>
+      </button>
+
+      <nav class="site-nav" id="menu-principal" aria-label="Principal" data-nav>
+        <ul class="site-nav__list">
+          <li><a class="site-nav__link" href="#especialidades">Especialidades</a></li>
+          <li><a class="site-nav__link" href="#menu">Menú</a></li>
+          <li><a class="site-nav__link" href="#nosotros">Nosotros</a></li>
+          <li><a class="site-nav__link" href="#galeria">Galería</a></li>
+          <li><a class="site-nav__link" href="#visitanos">Visítanos</a></li>
+        </ul>
+        <a class="button button--primary button--sm" href="https://wa.me/529997654321?text=Hola%2C%20quiero%20reservar%20una%20mesa" data-contact="whatsapp" target="_blank" rel="noopener">
+          <svg class="icon" aria-hidden="true"><use href="assets/img/icons.svg#calendar"></use></svg>
+          Reservar
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="inicio">
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <p class="status-badge" data-open-status hidden></p>
+          <p class="eyebrow">Cocina yucateca · Mérida</p>
+          <h1 class="hero__title">Recetas de la abuela, <em>servidas con calma</em></h1>
+          <p class="hero__lead">Cochinita de horno de tierra, relleno negro y sopa de lima como se hacen en casa, en una casona del barrio de Santa Ana.</p>
+          <div class="hero__actions">
+            <a class="button button--primary button--lg" href="https://wa.me/529997654321?text=Hola%2C%20quiero%20reservar%20una%20mesa" data-contact="whatsapp" target="_blank" rel="noopener">
+              <svg class="icon" aria-hidden="true"><use href="assets/img/icons.svg#whatsapp"></use></svg>
+              Reservar por WhatsApp
+            </a>
+            <a class="button button--outline button--lg" href="#menu">
+              <svg class="icon" aria-hidden="true"><use href="assets/img/icons.svg#utensils"></use></svg>
+              Ver el menú
+            </a>
+          </div>
+          <ul class="hero__facts">
+            <li><strong>4.8 ★</strong> en Google</li>
+            <li><strong>Terraza</strong> con jardín</li>
+            <li><strong>Para llevar</strong> todos los días</li>
+          </ul>
+        </div>
+
+        <div class="hero__visual">
+          <figure class="media media--portrait" data-slot="hero" data-placeholder data-hint="Platillo estrella o el comedor · 4:5">
+            <img src="assets/img/placeholder.svg" alt="Cochinita pibil servida en hoja de plátano en Casa Ceiba" width="1200" height="1500" fetchpriority="high">
+          </figure>
+          <p class="hero__stamp"><span>desde <strong>1998</strong></span></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ESPECIALIDADES ============ -->
+    <section class="section section--muted" id="especialidades" aria-labelledby="especialidades-titulo">
+      <div class="container">
+        <header class="section__header">
+          <p class="eyebrow">Especialidades</p>
+          <h2 class="section__title" id="especialidades-titulo">Los platillos que <em>nos piden siempre</em></h2>
+        </header>
+
+        <!-- Para agregar un platillo, copia un <li class="dish-card"> completo y agrega su espacio en imageSlots -->
+        <ul class="grid grid--3">
+          <li class="dish-card">
+            <figure class="media" data-slot="platillo-1" data-placeholder data-hint="Foto del platillo · 4:3">
+              <img src="assets/img/placeholder.svg" alt="Cochinita pibil con cebolla morada y tortillas hechas a mano" width="1200" height="900" loading="lazy">
+            </figure>
+            <span class="dish-card__tag">Favorito de la casa</span>
+            <div class="dish-card__header">
+              <h3 class="dish-card__title">Cochinita pibil</h3>
+              <span class="dish-card__price">$185</span>
+            </div>
+            <p class="dish-card__text">Cerdo marinado en achiote y naranja agria, cocido 12 horas en horno de tierra.</p>
+          </li>
+          <li class="dish-card">
+            <figure class="media" data-slot="platillo-2" data-placeholder data-hint="Foto del platillo · 4:3">
+              <img src="assets/img/placeholder.svg" alt="Relleno negro con huevo cocido en plato de barro" width="1200" height="900" loading="lazy">
+            </figure>
+            <span class="dish-card__tag">Receta familiar</span>
+            <div class="dish-card__header">
+              <h3 class="dish-card__title">Relleno negro</h3>
+              <span class="dish-card__price">$195</span>
+            </div>
+            <p class="dish-card__text">Pavo en recado de chiles tatemados, con but de cerdo y huevo cocido.</p>
+          </li>
+          <li class="dish-card">
+            <figure class="media" data-slot="platillo-3" data-placeholder data-hint="Foto del platillo · 4:3">
+              <img src="assets/img/placeholder.svg" alt="Sopa de lima con tiras de tortilla frita" width="1200" height="900" loading="lazy">
+            </figure>
+            <span class="dish-card__tag">Para empezar</span>
+            <div class="dish-card__header">
+              <h3 class="dish-card__title">Sopa de lima</h3>
+              <span class="dish-card__price">$110</span>
+            </div>
+            <p class="dish-card__text">Caldo de pollo con lima yucateca, tortilla frita y un toque de chile xcatic.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ MENÚ ============ -->
+    <section class="section" id="menu" aria-labelledby="menu-titulo">
+      <div class="container">
+        <header class="section__header section__header--center">
+          <p class="eyebrow">Menú</p>
+          <h2 class="section__title" id="menu-titulo">Nuestra carta</h2>
+          <p class="section__lead">Cocinamos con producto local y cambiamos algunos platillos según la temporada.</p>
+        </header>
+
+        <!-- Para agregar un platillo, copia un <li class="menu-item"> dentro de su categoría -->
+        <div class="menu">
+          <section class="menu-category" aria-labelledby="menu-entradas">
+            <h3 class="menu-category__title" id="menu-entradas">Para empezar</h3>
+            <ul class="menu-list">
+              <li class="menu-item">
+                <p class="menu-item__row"><span>Sopa de lima</span><span class="menu-item__price">$110</span></p>
+                <p class="menu-item__desc">Caldo de pollo, lima yucateca y tortilla frita.</p>
+              </li>
+              <li class="menu-item">
+                <p class="menu-item__row"><span>Panuchos (3)</span><span class="menu-item__price">$120</span></p>
+                <p class="menu-item__desc">Tortilla rellena de frijol con cochinita, pollo o pavo.</p>
+              </li>
+              <li class="menu-item">
+                <p class="menu-item__row"><span>Papadzules</span><span class="menu-item__price">$135</span></p>
+                <p class="menu-item__desc">Huevo en salsa de pepita de calabaza y chiltomate.</p>
+              </li>
+            </ul>
+          </section>
+
+          <section class="menu-category" aria-labelledby="menu-fuertes">
+            <h3 class="menu-category__title" id="menu-fuertes">Platos fuertes</h3>
+            <ul class="menu-list">
+              <li class="menu-item">
+                <p class="menu-item__row"><span>Cochinita pibil</span><span class="menu-item__price">$185</span></p>
+                <p class="menu-item__desc">Con cebolla morada, frijol colado y tortillas a mano.</p>
+              </li>
+              <li class="menu-item">
+                <p class="menu-item__row"><span>Relleno negro</span><span class="menu-item__price">$195</span></p>
+                <p class="menu-item__desc">Pavo en recado de chiles tatemados.</p>
+              </li>
+              <li class="menu-item">
+                <p class="menu-item__row"><span>Poc chuc</span><span class="menu-item__price">$210</span></p>
+                <p class="menu-item__desc">Cerdo a la leña con naranja agria y cebolla asada.</p>
+              </li>
+            </ul>
+          </section>
+
+          <section class="menu-category" aria-labelledby="menu-postres">
+            <h3 class="menu-category__title" id="menu-postres">Postres</h3>
+            <ul class="menu-list">
+              <li class="menu-item">
+                <p class="menu-item__row"><span>Marquesita</span><span class="menu-item__price">$70</span></p>
+                <p class="menu-item__desc">Crujiente con queso de bola y cajeta.</p>
+              </li>
+              <li class="menu-item">
+                <p class="menu-item__row"><span>Dulce de papaya</span><span class="menu-item__price">$85</span></p>
+                <p class="menu-item__desc">Papaya en almíbar con queso de bola.</p>
+              </li>
+            </ul>
+          </section>
+
+          <section class="menu-category" aria-labelledby="menu-bebidas">
+            <h3 class="menu-category__title" id="menu-bebidas">Bebidas</h3>
+            <ul class="menu-list">
+              <li class="menu-item">
+                <p class="menu-item__row"><span>Agua de chaya con piña</span><span class="menu-item__price">$55</span></p>
+              </li>
+              <li class="menu-item">
+                <p class="menu-item__row"><span>Horchata de la casa</span><span class="menu-item__price">$50</span></p>
+              </li>
+              <li class="menu-item">
+                <p class="menu-item__row"><span>Xtabentún</span><span class="menu-item__price">$90</span></p>
+                <p class="menu-item__desc">Licor de anís y miel de abeja melipona.</p>
+              </li>
+            </ul>
+          </section>
+        </div>
+
+        <div class="menu__footer">
+          <p>Precios en pesos mexicanos, IVA incluido.</p>
+          <a class="button button--outline" href="https://wa.me/529997654321?text=Hola%2C%20quiero%20hacer%20un%20pedido%20para%20llevar" data-contact="whatsapp" target="_blank" rel="noopener">
+            <svg class="icon" aria-hidden="true"><use href="assets/img/icons.svg#bag"></use></svg>
+            Pedir para llevar
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ NOSOTROS ============ -->
+    <section class="section section--muted" id="nosotros" aria-labelledby="nosotros-titulo">
+      <div class="container split">
+        <figure class="media" data-slot="nosotros" data-placeholder data-hint="Foto de la cocina o de la chef · 4:3">
+          <img src="assets/img/placeholder.svg" alt="Doña Chela preparando recado negro en la cocina de Casa Ceiba" width="1200" height="900" loading="lazy">
+        </figure>
+        <div class="split__content">
+          <p class="eyebrow">Nosotros</p>
+          <h2 class="section__title" id="nosotros-titulo">Una cocina familiar <em>desde 1998</em></h2>
+          <p>Casa Ceiba nació en el patio de la familia Pech, con una mesa larga y las recetas de la abuela. Hoy la cocina la llevan sus nietos, pero el recado se sigue moliendo a mano cada mañana.</p>
+          <blockquote class="pull-quote">
+            <p class="pull-quote__text">“Si no lleva tiempo, no sabe a Yucatán.”</p>
+            <p class="pull-quote__author">Chela Pech, fundadora</p>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ GALERÍA ============ -->
+    <section class="section" id="galeria" aria-labelledby="galeria-titulo">
+      <div class="container">
+        <header class="section__header">
+          <p class="eyebrow">Galería</p>
+          <h2 class="section__title" id="galeria-titulo">Ven a conocer <em>la casa</em></h2>
+        </header>
+
+        <!-- La primera foto se muestra al doble de tamaño -->
+        <ul class="gallery">
+          <li class="gallery__item">
+            <figure class="media media--square" data-slot="galeria-1" data-placeholder data-hint="Comedor o terraza · foto principal">
+              <img src="assets/img/placeholder.svg" alt="Terraza de Casa Ceiba con mesas bajo la ceiba" width="1200" height="1200" loading="lazy">
+            </figure>
+          </li>
+          <li class="gallery__item">
+            <figure class="media media--square" data-slot="galeria-2" data-placeholder data-hint="Detalle de un platillo · 1:1">
+              <img src="assets/img/placeholder.svg" alt="Panuchos recién servidos" width="1200" height="1200" loading="lazy">
+            </figure>
+          </li>
+          <li class="gallery__item">
+            <figure class="media media--square" data-slot="galeria-3" data-placeholder data-hint="Bebidas o postres · 1:1">
+              <img src="assets/img/placeholder.svg" alt="Agua de chaya con piña" width="1200" height="1200" loading="lazy">
+            </figure>
+          </li>
+          <li class="gallery__item">
+            <figure class="media media--square" data-slot="galeria-4" data-placeholder data-hint="La cocina en acción · 1:1">
+              <img src="assets/img/placeholder.svg" alt="Cocinera haciendo tortillas a mano" width="1200" height="1200" loading="lazy">
+            </figure>
+          </li>
+          <li class="gallery__item">
+            <figure class="media media--square" data-slot="galeria-5" data-placeholder data-hint="Fachada o ambiente · 1:1">
+              <img src="assets/img/placeholder.svg" alt="Fachada de la casona de Casa Ceiba" width="1200" height="1200" loading="lazy">
+            </figure>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ OPINIONES ============ -->
+    <section class="section section--muted" id="opiniones" aria-labelledby="opiniones-titulo">
+      <div class="container">
+        <header class="section__header">
+          <p class="eyebrow">Opiniones</p>
+          <h2 class="section__title" id="opiniones-titulo">Lo que dicen <em>en la mesa</em></h2>
+          <p class="rating-summary"><strong>4.8</strong> de 5 en más de 1,200 opiniones de Google</p>
+        </header>
+
+        <ul class="grid grid--3">
+          <li class="testimonial">
+            <span class="testimonial__stars" aria-label="5 de 5 estrellas">★★★★★</span>
+            <blockquote class="testimonial__quote">“La mejor cochinita que he probado en Mérida. Volvimos tres veces en una semana.”</blockquote>
+            <p class="testimonial__author">Lucía Herrera <span class="testimonial__meta">· Ciudad de México</span></p>
+          </li>
+          <li class="testimonial">
+            <span class="testimonial__stars" aria-label="5 de 5 estrellas">★★★★★</span>
+            <blockquote class="testimonial__quote">“Comer en la terraza bajo la ceiba es otra cosa. El servicio, cálido como en casa.”</blockquote>
+            <p class="testimonial__author">Roberto Cetina <span class="testimonial__meta">· Santa Ana</span></p>
+          </li>
+          <li class="testimonial">
+            <span class="testimonial__stars" aria-label="5 de 5 estrellas">★★★★★</span>
+            <blockquote class="testimonial__quote">“Celebramos el cumpleaños de mi mamá y nos atendieron increíble. El relleno negro, una joya.”</blockquote>
+            <p class="testimonial__author">Daniela Uc <span class="testimonial__meta">· Francisco de Montejo</span></p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ PREGUNTAS FRECUENTES ============ -->
+    <section class="section" id="preguntas" aria-labelledby="preguntas-titulo">
+      <div class="container container--narrow">
+        <header class="section__header">
+          <p class="eyebrow">Preguntas frecuentes</p>
+          <h2 class="section__title" id="preguntas-titulo">Antes de tu visita</h2>
+        </header>
+
+        <div class="faq">
+          <details class="faq__item">
+            <summary class="faq__question">¿Necesito reservar?</summary>
+            <p class="faq__answer">Entre semana casi siempre hay mesa. Viernes, sábado y domingo te recomendamos reservar por WhatsApp.</p>
+          </details>
+          <details class="faq__item">
+            <summary class="faq__question">¿Tienen opciones vegetarianas?</summary>
+            <p class="faq__answer">Sí: papadzules, panuchos de frijol con huevo y una sopa de lima de verduras.</p>
+          </details>
+          <details class="faq__item">
+            <summary class="faq__question">¿Hacen eventos privados?</summary>
+            <p class="faq__answer">Rentamos la terraza para grupos de 20 a 60 personas con menú cerrado. Escríbenos para cotizar.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ VISÍTANOS: DIRECCIÓN Y HORARIOS ============ -->
+    <section class="section section--muted" id="visitanos" aria-labelledby="visitanos-titulo">
+      <div class="container contact">
+        <div class="contact__info">
+          <p class="eyebrow">Visítanos</p>
+          <h2 class="section__title" id="visitanos-titulo">Te esperamos en <em>Santa Ana</em></h2>
+
+          <ul class="contact-list">
+            <li class="contact-list__item">
+              <svg class="icon" aria-hidden="true"><use href="assets/img/icons.svg#pin"></use></svg>
+              <span>Calle 47 #512, Santa Ana, Mérida, Yucatán</span>
+            </li>
+            <li class="contact-list__item">
+              <svg class="icon" aria-hidden="true"><use href="assets/img/icons.svg#phone"></use></svg>
+              <a href="tel:+529997654321" data-contact="phone">999 765 4321</a>
+            </li>
+            <li class="contact-list__item">
+              <svg class="icon" aria-hidden="true"><use href="assets/img/icons.svg#mail"></use></svg>
+              <a href="mailto:hola@casaceiba.mx">hola@casaceiba.mx</a>
+            </li>
+          </ul>
+
+          <!-- Horario: data-days usa 0 = domingo … 6 = sábado; horas en formato 24 h -->
+          <h3 class="contact__subtitle">Horario</h3>
+          <table class="hours" data-hours>
+            <tbody>
+              <tr data-days="2,3,4,5,6" data-open="13:00" data-close="23:00">
+                <th scope="row">Martes a sábado</th>
+                <td>13:00 a 23:00</td>
+              </tr>
+              <tr data-days="0" data-open="09:00" data-close="18:00">
+                <th scope="row">Domingo (desayunos)</th>
+                <td>9:00 a 18:00</td>
+              </tr>
+              <tr data-days="1">
+                <th scope="row">Lunes</th>
+                <td>Cerrado</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <div class="reservation-note">
+            <p>¿Vienen más de 8 personas? Avísanos y preparamos la mesa larga.</p>
+            <a class="button button--primary" href="https://wa.me/529997654321?text=Hola%2C%20quiero%20reservar%20una%20mesa" data-contact="whatsapp" target="_blank" rel="noopener">
+              <svg class="icon" aria-hidden="true"><use href="assets/img/icons.svg#whatsapp"></use></svg>
+              Reservar mesa
+            </a>
+          </div>
+        </div>
+
+        <div class="contact__map">
+          <iframe
+            title="Ubicación de Casa Ceiba en el mapa"
+            src="https://www.google.com/maps?q=Calle+47+512+Santa+Ana+M%C3%A9rida+Yucat%C3%A1n&output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ PIE DE PÁGINA ============ -->
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <p class="site-footer__brand">Casa Ceiba</p>
+      <ul class="social-list">
+        <li><a href="https://facebook.com/" target="_blank" rel="noopener" aria-label="Facebook"><svg class="icon" aria-hidden="true"><use href="assets/img/icons.svg#facebook"></use></svg></a></li>
+        <li><a href="https://instagram.com/" target="_blank" rel="noopener" aria-label="Instagram"><svg class="icon" aria-hidden="true"><use href="assets/img/icons.svg#instagram"></use></svg></a></li>
+      </ul>
+      <p>© <span data-current-year>2026</span> Casa Ceiba. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <a class="whatsapp-float" href="https://wa.me/529997654321?text=Hola%2C%20quiero%20reservar%20una%20mesa" data-contact="whatsapp" target="_blank" rel="noopener" aria-label="Escríbenos por WhatsApp">
+    <svg class="icon" aria-hidden="true"><use href="assets/img/icons.svg#whatsapp"></use></svg>
+  </a>
+</body>
+</html>
