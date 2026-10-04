@@ -45,6 +45,8 @@ Para poner una foto real en un espacio:
 3. Borra `data-placeholder` y `data-hint` del `<figure>`. Así desaparece la etiqueta de relleno.
 4. No cambies la clase `media--…` ni el `data-slot`: CSS recorta la foto a la proporción del espacio.
 
+Las fotos de `images/` que trae la plantilla son de ejemplo (generadas con IA para Casa Ceiba): reemplázalas por las del negocio real siguiendo los mismos pasos, y borra del repositorio las de ejemplo que ya no se usen.
+
 Si la persona sube varias fotos sin decir dónde van, asígnalas según la `label` de cada espacio en `imageSlots`. `npm run check` dice cuántos espacios siguen con imagen de relleno.
 
 ## Estructura

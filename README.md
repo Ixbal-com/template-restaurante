@@ -17,7 +17,7 @@ También puedes abrir `index.html` con cualquier servidor estático. No requiere
 
 1. **Identidad:** colores y tipografía en `assets/css/tokens.css`.
 2. **Contenido:** textos, menú y precios en `index.html`, organizado por secciones.
-3. **Imágenes:** la plantilla tiene 10 espacios de imagen listados en `imageSlots` de `template.json`. Mientras no tengan foto real, muestran una etiqueta con lo que va ahí. Ver [AGENTS.md](AGENTS.md#espacios-de-imagen).
+3. **Imágenes:** la plantilla tiene 10 espacios de imagen listados en `imageSlots` de `template.json`, con fotos de ejemplo en `images/` generadas con IA (`gpt-image-2.5-sunburst`). Reemplázalas por fotos reales del negocio; ver [AGENTS.md](AGENTS.md#espacios-de-imagen).
 
 Las reglas de arquitectura y la lista de datos que se repiten están en [AGENTS.md](AGENTS.md).
 
