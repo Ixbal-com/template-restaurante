@@ -8,6 +8,7 @@
   "tags": ["restaurante", "menú", "reservaciones", "whatsapp", "galería"],
   "entry": "index.html",
   "preview": "preview.png",
+  "modules": [],
   "sections": ["encabezado", "hero", "especialidades", "menu", "nosotros", "galeria", "opiniones", "preguntas", "visitanos", "pie"],
   "imageSlots": [
     { "id": "hero", "label": "Foto principal: tu platillo estrella o el comedor", "ratio": "4:5", "recommended": "1200 × 1500 px", "section": "hero" },
